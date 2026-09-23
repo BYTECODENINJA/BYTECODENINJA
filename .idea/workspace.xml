@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9cdb7acd-2ab0-4a8f-990f-4ea9b8fc0d97" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/icons/vite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BYTECODENINJA&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BYTECODENINJA/BYTECODENINJA.git&quot;,
+    &quot;accountId&quot;: &quot;5c2f90f1-d21d-4dee-aae6-b8693f42463a&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000012226002" />
+      <entry key="S10" value="1.0000349669786988" />
+      <entry key="S30" value="1.0338359483761268" />
+      <entry key="S60" value="1.2260760220726044" />
+      <entry key="M2" value="1.8984001107354131" />
+      <entry key="M5" value="5.628852010535333" />
+      <entry key="M10" value="11.95916058694087" />
+      <entry key="M15" value="16.401110266513438" />
+      <entry key="M30" value="23.7885328372158" />
+      <entry key="H1" value="29.88631493832652" />
+      <entry key="H2" value="34.198023131593196" />
+      <entry key="H4" value="36.86467067567719" />
+      <entry key="D1" value="39.43950979334564" />
+      <entry key="W1" value="39.91891935528566" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.862E-320" />
+      <entry key="MS500" value="1.1324113173725444E-64" />
+      <entry key="S2" value="1.0315755741295963E-16" />
+      <entry key="S5" value="4.0308851120774853E-7" />
+      <entry key="S10" value="6.348925195694951E-4" />
+      <entry key="S30" value="0.08602617509159298" />
+      <entry key="S60" value="0.3068985008189621" />
+      <entry key="M2" value="0.7850151848183733" />
+      <entry key="M5" value="2.772452973453668" />
+      <entry key="M10" value="5.754198059551758" />
+      <entry key="M15" value="8.067754744926848" />
+      <entry key="M30" value="12.995678386036742" />
+      <entry key="H1" value="18.32691124751812" />
+      <entry key="H2" value="22.673358520518317" />
+      <entry key="H4" value="25.529437736942338" />
+      <entry key="D1" value="28.372512132153076" />
+      <entry key="W1" value="28.90906321982908" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="8.572051243518052E-5" />
+      <entry key="MS500" value="0.15367985840682258" />
+      <entry key="S2" value="0.6261151867171642" />
+      <entry key="S5" value="0.8292048983715155" />
+      <entry key="S10" value="0.9111997198752543" />
+      <entry key="S30" value="1.0854916369290488" />
+      <entry key="S60" value="1.5107903818844302" />
+      <entry key="M2" value="2.6662581150398115" />
+      <entry key="M5" value="8.383758872722458" />
+      <entry key="M10" value="17.696245643436352" />
+      <entry key="M15" value="24.45280804793476" />
+      <entry key="M30" value="36.77076571507765" />
+      <entry key="H1" value="48.20334897544402" />
+      <entry key="H2" value="56.86510319782355" />
+      <entry key="H4" value="62.39051887988983" />
+      <entry key="D1" value="67.81134782485489" />
+      <entry key="W1" value="68.82788421344145" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3JdXb7zTRiDIQoMoiARKSpNG6O8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/killswitch0n3/Downloads/BYTECODENINJA-profile-repo (1)&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/icons" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.10968.77" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cdb7acd-2ab0-4a8f-990f-4ea9b8fc0d97" name="Changes" comment="" />
+      <created>1789991987564</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1789991987564</updated>
+      <workItem from="1789991988607" duration="3246000" />
+      <workItem from="1789995978737" duration="4576000" />
+      <workItem from="1790060148173" duration="2967000" />
+      <workItem from="1790182696555" duration="3818000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

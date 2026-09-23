@@ -156,91 +156,124 @@ A world where great software is **forged with obsessive craft and shipped everyw
 
 <br>
 
-<table>
-<tr>
-<th width="33%" align="center"><img src="assets/icons/monitor.svg" width="28" align="absmiddle" alt=""> &nbsp;Frontend</th>
-<th width="33%" align="center"><img src="assets/icons/server.svg" width="28" align="absmiddle" alt=""> &nbsp;Backend</th>
-<th width="33%" align="center"><img src="assets/icons/layers.svg" width="28" align="absmiddle" alt=""> &nbsp;Fullstack</th>
-</tr>
-<tr>
-<td width="33%" valign="top">
-
-<h4>🏛️ josephmulwa13 — Portfolio</h4>
-<p>My developer portfolio: a Next.js + TypeScript app with a component-driven architecture (shadcn/ui), built so first impressions do the heavy lifting.</p>
-<p><img src="assets/icons/nextdotjs.svg" height="26" alt="Next.js"> <img src="assets/icons/typescript.svg" height="26" alt="TypeScript"> <img src="assets/icons/tailwindcss.svg" height="26" alt="Tailwind CSS"> <img src="assets/icons/vercel.svg" height="26" alt="Vercel"></p>
-<p><a href="https://github.com/BYTECODENINJA/josephmulwa13"><img src="assets/btn-repo.svg" height="28" alt="Repository"></a> <a href="https://josephmulwa13.vercel.app"><img src="assets/btn-live.svg" height="28" alt="Live preview"></a></p>
-
-</td>
-<td width="33%" valign="top">
-
-<h4>🗄️ freecodecamp — Relational Databases</h4>
-<p>Relational-database coursework from freeCodeCamp's curriculum: a "universe" SQL database (<code>universe.sql</code>) built around schema design, keys and table relationships.</p>
-<p><img src="assets/icons/postgresql.svg" height="26" alt="PostgreSQL"></p>
-<p><a href="https://github.com/BYTECODENINJA/freecodecamp"><img src="assets/btn-repo.svg" height="28" alt="Repository"></a></p>
-
-</td>
-<td width="33%" valign="top">
-
-<h4>💸 ExpenseTracker</h4>
-<p>A full-stack expense tracker, split cleanly into a <code>Frontend</code> client and a <code>Backend</code> service, deployed and live on Vercel.</p>
-<p><img src="assets/icons/javascript.svg" height="26" alt="JavaScript"> <img src="assets/icons/vercel.svg" height="26" alt="Vercel"></p>
-<p><a href="https://github.com/BYTECODENINJA/ExpenseTracker"><img src="assets/btn-repo.svg" height="28" alt="Repository"></a> <a href="https://expense-tracker-black-two.vercel.app"><img src="assets/btn-live.svg" height="28" alt="Live preview"></a></p>
-
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-
-<!-- TODO: replace with a real frontend project (name · description · repo link · live preview link) -->
-<h4>🚧 Slot open — Frontend #2</h4>
-<p><i>Reserved for the next masterpiece. Name, description, repository and live preview go here.</i></p>
-<p><a href="https://github.com/BYTECODENINJA?tab=repositories"><img src="assets/btn-repo.svg" height="28" alt="Repository"></a></p>
-
-</td>
-<td width="33%" valign="top">
-
-<!-- TODO: replace with a real backend project (name · description · repo link) -->
-<h4>🚧 Slot open — Backend #2</h4>
-<p><i>Reserved for a serious API. Name, description and repository link go here.</i></p>
-<p><a href="https://github.com/BYTECODENINJA?tab=repositories"><img src="assets/btn-repo.svg" height="28" alt="Repository"></a></p>
-
-</td>
-<td width="33%" valign="top">
-
-<!-- TODO: replace with a real fullstack project (name · description · repo link · live preview link) -->
-<h4>🚧 Slot open — Fullstack #2</h4>
-<p><i>Reserved for the next masterpiece. Name, description, repository and live preview go here.</i></p>
-<p><a href="https://github.com/BYTECODENINJA?tab=repositories"><img src="assets/btn-repo.svg" height="28" alt="Repository"></a></p>
-
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-
-<!-- TODO: replace with a real frontend project (name · description · repo link · live preview link) -->
-<h4>🚧 Slot open — Frontend #3</h4>
-<p><i>Reserved for the next masterpiece. Name, description, repository and live preview go here.</i></p>
-<p><a href="https://github.com/BYTECODENINJA?tab=repositories"><img src="assets/btn-repo.svg" height="28" alt="Repository"></a></p>
-
-</td>
-<td width="33%" valign="top">
-
-<!-- TODO: replace with a real backend project (name · description · repo link) -->
-<h4>🚧 Slot open — Backend #3</h4>
-<p><i>Reserved for a serious API. Name, description and repository link go here.</i></p>
-<p><a href="https://github.com/BYTECODENINJA?tab=repositories"><img src="assets/btn-repo.svg" height="28" alt="Repository"></a></p>
-
-</td>
-<td width="33%" valign="top">
-
-<!-- TODO: replace with a real fullstack project (name · description · repo link · live preview link) -->
-<h4>🚧 Slot open — Fullstack #3</h4>
-<p><i>Reserved for the next masterpiece. Name, description, repository and live preview go here.</i></p>
-<p><a href="https://github.com/BYTECODENINJA?tab=repositories"><img src="assets/btn-repo.svg" height="28" alt="Repository"></a></p>
-
-</td>
-</tr>
+<!-- PROJECT 1: PORTFOLIO (Image Left, Text Right) -->
+<table width="100%" border="0" cellpadding="10" cellspacing="0">
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/project%20assets/carlture.png" width="100%" alt="Portfolio Preview" style="border-radius: 4px;">
+    </td>
+    <td width="50%" valign="top">
+      <small><b>Carlture</b> &nbsp;|&nbsp; FRONTEND · WEB</small>
+      <h2 style="margin-top: 5px; margin-bottom: 10px;">CARLTURE</h2>
+      <p>A vibrant portfolio project for practicing UI craft: design tokens, scroll-driven motion, custom cursors, interactive WebGL, and responsive editorial layouts. Pure front-end, no backend.</p>
+      <hr style="border: 0; border-top: 1px solid #333; margin: 15px 0;">
+      <table border="0">
+        <tr>
+          <td><b>100</b><br><small>RESPONSIVE</small></td>
+          <td style="padding-left: 20px;"><b></b><br><small>WORK OF ART</small></td>
+          <td style="padding-left: 20px;"><b>A+</b><br><small>CODE GRADE</small></td>
+        </tr>
+      </table>
+      <br>
+      <img src="assets/icons/vite.svg" height="20" alt="vite.js"> &nbsp;
+      <img src="assets/icons/javascript.svg" height="20" alt="JavaScript"> &nbsp;
+      <img src="assets/icons/tailwindcss.svg" height="20" alt="Tailwind CSS"> &nbsp;
+      <img src="assets/icons/vercel.svg" height="20" alt="Vercel">
+      <br><br>
+      <a href="https://github.com/BYTECODENINJA/carlture"><b>VIEW SOURCE ↗</b></a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+      <a href="https://carlture.vercel.app"><b>LIVE PREVIEW ↗</b></a>
+    </td>
+  </tr>
 </table>
+
+<br><br>
+
+<!-- PROJECT 2: EXPENSE TRACKER (Text Left, Image Right - Alternating) -->
+<table width="100%" border="0" cellpadding="10" cellspacing="0">
+  <tr>
+    <td width="50%" valign="top">
+      <small><b>K-TECH</b> &nbsp;|&nbsp; FRONTEND · WEB</small>
+      <h2 style="margin-top: 5px; margin-bottom: 10px;">K-TECH</h2>
+      <p>A fully responsive frontend website for a tech company. Fully detailed created using vite and React.</p>
+      <hr style="border: 0; border-top: 1px solid #333; margin: 15px 0;">
+      <table border="0">
+        <tr>
+          <td><b>100%</b><br><small>RESPONSIVE</small></td>
+          <td style="padding-left: 20px;"><b>&lt;50ms</b><br><small>LOAD TIME</small></td>
+          <td style="padding-left: 20px;"><b>SEO FRIENDLY</b><br><small>SEO SCORE</small></td>
+        </tr>
+      </table>
+      <br>
+      <img src="assets/icons/javascript.svg" height="20" alt="JavaScript"> &nbsp;
+      <img src="assets/icons/vite.svg" height="20" alt="Vite"> &nbsp;
+      <img src="assets/icons/vercel.svg" height="20" alt="Vercel">
+      <br><br>
+      <a href="https://github.com/BYTECODENINJA/K-Tech"><b>VIEW SOURCE ↗</b></a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+      <a href="https://k-tech-six.vercel.app"><b>LIVE PREVIEW ↗</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/project%20assets/K-Tech.png" width="100%" alt="Expense Tracker Preview" style="border-radius: 4px;">
+    </td>
+  </tr>
+</table>
+
+<br><br>
+
+<!-- PROJECT 3: RELATIONAL DATABASES (Image Left, Text Right) -->
+<table width="100%" border="0" cellpadding="10" cellspacing="0">
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/project%20assets/easy-Auth.png" width="100%" alt="Database Preview" style="border-radius: 4px;">
+    </td>
+    <td width="50%" valign="top">
+      <small><b>EASY AUTH</b> &nbsp;|&nbsp; AUTHENTICATION · BACKEND</small>
+      <h2 style="margin-top: 5px; margin-bottom: 10px;">EASY AUTH</h2>
+      <p>A production-ready authentication and task management API built with NestJS, featuring JWT-based authentication with refresh tokens, email verification via Resend, role-based access control, and a full CRUD task system.</p>
+      <hr style="border: 0; border-top: 1px solid #333; margin: 15px 0;">
+      <table border="0">
+        <tr>
+          <td style="padding-left: 20px;"><b>Scalable</b><br><small>GUARANTEED</small></td>
+          <td style="padding-left: 20px;"><b>Clean code</b><br><small>ACHIEVED</small></td>
+        </tr>
+      </table>
+      <br>
+      <img src="assets/icons/postgresql.svg" height="20" alt="PostgreSQL">
+      <img src="assets/icons/nestjs.svg" height="20" alt="nestjs">
+      <img src="assets/icons/redis.svg" height="20" alt="redis">
+      <br><br>
+      <a href="https://github.com/BYTECODENINJA/Easy-Auth"><b>VIEW SOURCE ↗</b></a>
+    </td>
+  </tr>
+</table>
+
+<!-- PROJECT 4: RELATIONAL DATABASES (Image Left, Text Right) -->
+<table width="100%" border="0" cellpadding="10" cellspacing="0">
+  <tr>
+    <td width="50%" valign="top">
+      <small><b>NEXIVENT</b> &nbsp;|&nbsp; MICROSERVICES · BACKEND</small>
+      <h2 style="margin-top: 5px; margin-bottom: 10px;">NEXIVENT</h2>
+      <p>A TypeScript/NestJS event-management backend organized as a microservice monorepo. It supports account registration and login, event creation and publication, ticket purchase and check-in, and asynchronous email notifications. The API gateway is the client-facing entry point; it forwards HTTP requests to dedicated Auth, Events, and Tickets services.</p>
+      <hr style="border: 0; border-top: 1px solid #333; margin: 15px 0;">
+      <table border="0">
+        <tr>
+          <td style="padding-left: 20px;"><b>Scalable</b><br><small>GUARANTEED</small></td>
+          <td style="padding-left: 20px;"><b>Clean code</b><br><small>ACHIEVED</small></td>
+        </tr>
+      </table>
+      <br>
+      <img src="assets/icons/postgresql.svg" height="20" alt="PostgreSQL">
+      <img src="assets/icons/nestjs.svg" height="20" alt="nestjs">
+      <img src="assets/icons/redis.svg" height="20" alt="redis">
+      <br><br>
+      <a href="https://github.com/BYTECODENINJA/Easy-Auth"><b>VIEW SOURCE ↗</b></a>
+    </td>
+<td width="50%" valign="top">
+      <img src="assets/project%20assets/Nexivent.png" width="100%" alt="Database Preview" style="border-radius: 4px;">
+    </td>
+  </tr>
+</table>
+
+<br>
 
 <br>
 
