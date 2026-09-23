@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" role="img"><title>eye</title>
+<defs>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#F6DE8D"/><stop offset=".45" stop-color="#D4AF37"/><stop offset="1" stop-color="#8A6A1C"/>
+  </linearGradient></defs>
+<rect x=".75" y=".75" width="38.5" height="38.5" rx="10" fill="#0c0f17" stroke="url(#gold)" stroke-width="1.4"/>
+<g transform="translate(9 9) scale(0.9166666666666666)" fill="none" stroke="#F6DE8D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0" />
+  <circle cx="12" cy="12" r="3" /></g>
+</svg>

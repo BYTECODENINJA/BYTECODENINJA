@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="68" viewBox="0 0 900 68" role="img" aria-label="VI. THE ORACLE'S CHARTS">
+<title>VI. THE ORACLE'S CHARTS</title>
+<defs>
+  
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#F6DE8D"/><stop offset=".45" stop-color="#D4AF37"/><stop offset="1" stop-color="#8A6A1C"/>
+  </linearGradient>
+  
+  <pattern id="key" width="32" height="18" patternUnits="userSpaceOnUse">
+    <path d="M0 16 H6 V2 H26 V16 H32 M26 11 H14 V6 H18"
+          fill="none" stroke="#8A6A1C" stroke-width="1.8" stroke-linecap="square" stroke-linejoin="miter"/>
+  </pattern>
+  <linearGradient id="sweep" gradientUnits="userSpaceOnUse" x1="-200" x2="0" y1="0" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    <animate attributeName="x1" values="-200;900" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="0;1100" dur="5s" repeatCount="indefinite"/>
+  </linearGradient>
+  <clipPath id="c"><rect x="2" y="2" width="896" height="64" rx="12"/></clipPath>
+</defs>
+<rect x="2" y="2" width="896" height="64" rx="12" fill="#0c0f17" stroke="url(#gold)" stroke-width="1.6"/>
+<g clip-path="url(#c)">
+  <rect x="638" y="24" width="250" height="20" fill="url(#key)" opacity=".75"/>
+  <rect x="2" y="2" width="896" height="64" fill="url(#sweep)"/>
+</g>
+<circle cx="46" cy="34" r="23" fill="#06070c" stroke="url(#gold)" stroke-width="2"/>
+<circle cx="46" cy="34" r="18" fill="none" stroke="#8A6A1C" stroke-width="1" stroke-dasharray="2 3"/>
+<text x="46" y="41" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'Palatino Linotype', serif" font-size="19" font-weight="700" fill="url(#gold)">VI</text>
+<text x="86" y="33" font-family="Georgia, 'Times New Roman', 'Palatino Linotype', serif" font-size="23" font-weight="700" letter-spacing="5" fill="url(#gold)">THE ORACLE'S CHARTS</text>
+<text x="87" y="53" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" letter-spacing="2" fill="#38BDF8">// radar · monthly · daily</text>
+<path d="M626 34 l7 -7 l7 7 l-7 7 z" fill="#D4AF37"><animate attributeName="opacity" values=".4;1;.4" dur="2.4s" repeatCount="indefinite"/></path>
+</svg>

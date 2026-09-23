@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" role="img" aria-label="Language radar (awaiting first run)">
+<title>Language radar (awaiting first run)</title>
+<defs>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6DE8D"/><stop offset=".45" stop-color="#D4AF37"/><stop offset="1" stop-color="#8A6A1C"/></linearGradient><pattern id="key" width="26" height="14" patternUnits="userSpaceOnUse"><path d="M0 12 H4 V1.5 H22 V12 H26 M22 8.5 H9 V5 H18" fill="none" stroke="#8A6A1C" stroke-width="1.4"/></pattern>
+  <linearGradient id="radarFill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6" stop-opacity=".55"/><stop offset="1" stop-color="#22D3EE" stop-opacity=".3"/></linearGradient>
+  <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#8A6A1C"/><stop offset="1" stop-color="#F6DE8D"/></linearGradient>
+  <radialGradient id="sweepG" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0) scale(130)"><stop offset="0" stop-color="#22D3EE" stop-opacity=".0"/><stop offset="1" stop-color="#22D3EE" stop-opacity=".22"/></radialGradient>
+  <style>
+    .grow{transform-box:fill-box;transform-origin:left center;animation:grow 1.4s cubic-bezier(.2,.8,.2,1) both}
+    @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+  </style>
+</defs>
+
+<rect x="1.5" y="1.5" width="897" height="437" rx="14" fill="#0c0f17" stroke="url(#gold)" stroke-width="1.6"/>
+<text x="26" y="32" font-family="Georgia, 'Times New Roman', 'Palatino Linotype', serif" font-size="15" font-weight="700" letter-spacing="4" fill="url(#gold)">LANGUAGE RADAR</text>
+<text x="874" y="32" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" letter-spacing="1.5" fill="#38BDF8">// bytes across my repositories</text>
+<rect x="26" y="37" width="848" height="14" fill="url(#key)" opacity=".55"/>
+<g transform="translate(250 250)">
+  <polygon points="0.0,-32.5 28.1,-16.3 28.1,16.2 0.0,32.5 -28.1,16.3 -28.1,-16.3" fill="none" stroke="#2a2412" stroke-width="1" stroke-dasharray="3 4"/><polygon points="0.0,-65.0 56.3,-32.5 56.3,32.5 0.0,65.0 -56.3,32.5 -56.3,-32.5" fill="none" stroke="#2a2412" stroke-width="1" stroke-dasharray="3 4"/><polygon points="0.0,-97.5 84.4,-48.8 84.4,48.7 0.0,97.5 -84.4,48.8 -84.4,-48.8" fill="none" stroke="#2a2412" stroke-width="1" stroke-dasharray="3 4"/><polygon points="0.0,-130.0 112.6,-65.0 112.6,65.0 0.0,130.0 -112.6,65.0 -112.6,-65.0" fill="none" stroke="#8A6A1C" stroke-width="1.4" /><line x1="0" y1="0" x2="0.0" y2="-130.0" stroke="#2a2412" stroke-width="1"/><line x1="0" y1="0" x2="112.6" y2="-65.0" stroke="#2a2412" stroke-width="1"/><line x1="0" y1="0" x2="112.6" y2="65.0" stroke="#2a2412" stroke-width="1"/><line x1="0" y1="0" x2="0.0" y2="130.0" stroke="#2a2412" stroke-width="1"/><line x1="0" y1="0" x2="-112.6" y2="65.0" stroke="#2a2412" stroke-width="1"/><line x1="0" y1="0" x2="-112.6" y2="-65.0" stroke="#2a2412" stroke-width="1"/>
+  <g>
+    <path d="M0 0 L130 0 A130 130 0 0 0 110.8 -67.9 Z" fill="url(#sweepG)"/>
+    <line x1="0" y1="0" x2="130" y2="0" stroke="#22D3EE" stroke-width="1.4" opacity=".7"/>
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
+  </g>
+  <circle r="3.5" fill="#D4AF37"/>
+</g>
+
+<g transform="translate(250 250)"><text x="0.0" y="-152.0" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#E8E2D0">—</text><text x="135.1" y="-74.0" text-anchor="start" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#E8E2D0">—</text><text x="135.1" y="82.0" text-anchor="start" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#E8E2D0">—</text><text x="0.0" y="160.0" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#E8E2D0">—</text><text x="-135.1" y="82.0" text-anchor="end" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#E8E2D0">—</text><text x="-135.1" y="-74.0" text-anchor="end" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#E8E2D0">—</text></g>
+<text x="530" y="200" font-family="Georgia, 'Times New Roman', 'Palatino Linotype', serif" font-style="italic" font-size="20" fill="#E8E2D0">The Oracle is reading the stars…</text>
+    <text x="530" y="230" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#38BDF8">// run the “Forge Charts” workflow to fill this panel</text>
+<text x="874" y="426" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10" letter-spacing="1" fill="#8F8A7A">awaiting first run</text>
+</svg>

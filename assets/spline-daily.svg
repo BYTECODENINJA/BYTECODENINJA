@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" role="img" aria-label="Daily contributions and commits over the last 30 days (awaiting first run)">
+<title>Daily contributions and commits over the last 30 days (awaiting first run)</title>
+<defs>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6DE8D"/><stop offset=".45" stop-color="#D4AF37"/><stop offset="1" stop-color="#8A6A1C"/></linearGradient><pattern id="key" width="26" height="14" patternUnits="userSpaceOnUse"><path d="M0 12 H4 V1.5 H22 V12 H26 M22 8.5 H9 V5 H18" fill="none" stroke="#8A6A1C" stroke-width="1.4"/></pattern>
+  <linearGradient id="areaC" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D4AF37" stop-opacity=".42"/><stop offset="1" stop-color="#D4AF37" stop-opacity="0"/></linearGradient>
+  <linearGradient id="areaK" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22D3EE" stop-opacity=".28"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></linearGradient>
+  <linearGradient id="strokeC" x1="0" x2="1"><stop offset="0" stop-color="#8A6A1C"/><stop offset=".6" stop-color="#D4AF37"/><stop offset="1" stop-color="#F6DE8D"/></linearGradient>
+  <linearGradient id="strokeK" x1="0" x2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+  <style>
+    .draw{stroke-dasharray:1;stroke-dashoffset:0;animation:draw 2.4s cubic-bezier(.3,.7,.2,1) both}
+    .fade{animation:fade 2.2s ease-out both}
+    .pt{animation:fade .6s ease-out both}
+    @keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+    @keyframes fade{from{opacity:0}to{opacity:1}}
+  </style>
+</defs>
+
+<rect x="1.5" y="1.5" width="897" height="397" rx="14" fill="#0c0f17" stroke="url(#gold)" stroke-width="1.6"/>
+<text x="26" y="32" font-family="Georgia, 'Times New Roman', 'Palatino Linotype', serif" font-size="15" font-weight="700" letter-spacing="4" fill="url(#gold)">DAILY SPLINE</text>
+<text x="874" y="32" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" letter-spacing="1.5" fill="#38BDF8">// last 30 days</text>
+<rect x="26" y="37" width="848" height="14" fill="url(#key)" opacity=".55"/>
+<g transform="translate(26 64)" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13">
+  <rect y="2" width="22" height="4" rx="2" fill="url(#strokeC)"/><text x="32" y="9" fill="#E8E2D0">Contributions</text>
+  <rect x="150" y="2" width="22" height="4" rx="2" fill="url(#strokeK)"/><text x="182" y="9" fill="#E8E2D0">Commits</text>
+</g>
+<line x1="64" y1="92" x2="866" y2="92" stroke="#2a2412" stroke-dasharray="3 5"/>
+    <text x="52" y="96" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#8F8A7A">4</text><line x1="64" y1="155" x2="866" y2="155" stroke="#2a2412" stroke-dasharray="3 5"/>
+    <text x="52" y="159" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#8F8A7A">3</text><line x1="64" y1="218" x2="866" y2="218" stroke="#2a2412" stroke-dasharray="3 5"/>
+    <text x="52" y="222" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#8F8A7A">2</text><line x1="64" y1="281" x2="866" y2="281" stroke="#2a2412" stroke-dasharray="3 5"/>
+    <text x="52" y="285" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#8F8A7A">1</text><line x1="64" y1="344" x2="866" y2="344" stroke="#2a2412" stroke-dasharray="0"/>
+    <text x="52" y="348" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" fill="#8F8A7A">0</text><text x="64.0" y="368" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#8F8A7A">·</text><text x="202.3" y="368" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#8F8A7A">·</text><text x="340.6" y="368" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#8F8A7A">·</text><text x="478.8" y="368" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#8F8A7A">·</text><text x="617.1" y="368" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#8F8A7A">·</text><text x="755.4" y="368" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#8F8A7A">·</text><text x="866.0" y="368" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#8F8A7A">·</text>
+<text x="450" y="212" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'Palatino Linotype', serif" font-style="italic" font-size="22" fill="#E8E2D0">The Oracle is reading the stars…</text>
+<text x="450" y="240" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#38BDF8">// run the “Forge Charts” workflow to fill this panel</text>
+<text x="874" y="386" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10" letter-spacing="1" fill="#8F8A7A">awaiting first run</text>
+</svg>

@@ -1,0 +1,15 @@
+{
+  "name": "bytecodeninja-profile",
+  "private": true,
+  "type": "module",
+  "description": "Assets & tooling for the BYTECODENINJA GitHub profile README",
+  "scripts": {
+    "build:assets": "node scripts/build-assets.mjs",
+    "build:charts": "node scripts/generate-charts.mjs",
+    "charts:pending": "node scripts/generate-charts.mjs --pending"
+  },
+  "devDependencies": {
+    "lucide-static": "^1.47.0",
+    "simple-icons": "^16.32.0"
+  }
+}
