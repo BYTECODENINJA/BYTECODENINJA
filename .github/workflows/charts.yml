@@ -22,6 +22,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
@@ -34,10 +37,55 @@ jobs:
           # Optional: add a classic PAT (read:user, repo) as PROFILE_TOKEN to include private repos/contributions.
           GH_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
 
-      - name: Commit the refreshed charts
+      - name: Commit and push refreshed charts
+        shell: bash
         run: |
-          git config user.name  "github-actions[bot]"
+          set -Eeuo pipefail
+
+          git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/radar-languages.svg assets/spline-contributions.svg assets/spline-daily.svg
-          git diff --staged --quiet || git commit -m "chore(charts): refresh radar & splines"
-          git push
+
+          git add \
+            assets/radar-languages.svg \
+            assets/spline-contributions.svg \
+            assets/spline-daily.svg
+
+          if git diff --staged --quiet; then
+            echo "No chart changes."
+            exit 0
+          fi
+
+          git commit -m "chore(charts): refresh radar & splines"
+
+          for attempt in 1 2 3; do
+            git fetch origin main
+
+            if ! git rebase origin/main; then
+              echo "Rebase conflict; regenerate charts on top of origin/main."
+              git rebase --abort
+              git reset --hard origin/main
+
+              node scripts/generate-charts.mjs
+              git add \
+                assets/radar-languages.svg \
+                assets/spline-contributions.svg \
+                assets/spline-daily.svg
+
+              if git diff --staged --quiet; then
+                echo "Charts are already current."
+                exit 0
+              fi
+
+              git commit -m "chore(charts): refresh radar & splines"
+            fi
+
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            echo "Push attempt $attempt failed; retrying."
+            sleep $((attempt * 5))
+          done
+
+          echo "Unable to push chart update after three attempts."
+          exit 1
