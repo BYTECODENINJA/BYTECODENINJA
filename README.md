@@ -145,8 +145,6 @@ A world where great software is **forged with obsessive craft and shipped everyw
 
 <img src="assets/spline-daily.svg" alt="Spline chart of my daily contributions and commits over the last 30 days" width="100%">
 
-<sub>Charts are forged automatically from the GitHub API by a scheduled workflow — see <a href="scripts/generate-charts.mjs"><code>scripts/generate-charts.mjs</code></a>.</sub>
-
 </div>
 
 <br>
@@ -300,6 +298,6 @@ A world where great software is **forged with obsessive craft and shipped everyw
 
 <img src="assets/divider.svg" alt="" width="100%">
 
-<sub>Thanks for stopping by. Star a repo on your way out — it's the polite thing to do. 🏛️</sub>
+<h1>Thanks for stopping by. Star a repo on your way out — it's the polite thing to do. 🏛️</h1>
 
 </div>
