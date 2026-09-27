@@ -19,9 +19,9 @@
 
 **Hello, I'm Joseph Mulwa — and I see the internet brought you to me.** Smart move, internet. It usually just delivers cat videos and strong opinions about tabs versus spaces.
 
-Here's the thing: I'm a **Fullstack JavaScript developer**. Genius? I wouldn't say that myself. *(Pause.)* I'd let the commit history say it. I build frontends that make designers cry — the good kind of crying — backends that stay upright when traffic shows up uninvited, and system designs that laugh at the phrase "just a small change request." No suit of armor. I've got a terminal, an unreasonable amount of opinions about clean code, and enough chai to power a small arc reactor.
+Here's the thing: I'm a **Fullstack JavaScript developer**. Genius? I wouldn't say that myself.I'd let the commit history say it. I build frontends that make designers cry — the good kind of crying — backends that stay upright when traffic shows up uninvitedand system designs that laugh at the phrase "just a small change request." No suit of armor. I've got a terminal, an unreasonable amount of opinions about clean codeand enough chai to power a small arc reactor.
 
-Bugs? I don't *fix* them. I sit them down, have a mature conversation, and they see reason. Deadlines are suggestions with a dramatic soundtrack. Legacy code is archaeology — less treasure, more `// TODO: fix later (2019)`.
+Bugs? I don't *fix* them. I sit them down, have a mature conversation and they see reason. Deadlines are suggestions with a dramatic soundtrack. Legacy code is archaeology — less treasure, more `// TODO: fix later (2019)`.
 
 Every legend needs a **mission** and a **vision**. Mine came with fewer explosions than the other guy's:
 
@@ -42,7 +42,7 @@ Turn ambitious ideas into **useful, expressive systems**. Clean code, sane archi
 
 <br>
 
-A world where great software is **forged with obsessive craft and shipped everywhere** — where the work does the talking, the résumé takes a nap, and I'm the engineer teams call when the problem is hard, the deadline is rude, and the stack runs from pixel to database to pipeline.
+A world where great software is **forged with obsessive craft and shipped everywhere** — where the work does the talking, the résumé takes a napand I'm the engineer teams call when the problem is hard, the deadline is rudeand the stack runs from pixel to database to pipeline.
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ A world where great software is **forged with obsessive craft and shipped everyw
     <td width="50%" valign="top">
       <small><b>Carlture</b> &nbsp;|&nbsp; FRONTEND · WEB</small>
       <h2 style="margin-top: 5px; margin-bottom: 10px;">CARLTURE</h2>
-      <p>A vibrant portfolio project for practicing UI craft: design tokens, scroll-driven motion, custom cursors, interactive WebGL, and responsive editorial layouts. Pure front-end, no backend.</p>
+      <p>A vibrant portfolio project for practicing UI craft: design tokens, scroll-driven motion, custom cursors, interactive WebGLand responsive editorial layouts. Pure front-end, no backend.</p>
       <hr style="border: 0; border-top: 1px solid #333; margin: 15px 0;">
       <table border="0">
         <tr>
@@ -228,7 +228,7 @@ A world where great software is **forged with obsessive craft and shipped everyw
     <td width="50%" valign="top">
       <small><b>EASY AUTH</b> &nbsp;|&nbsp; AUTHENTICATION · BACKEND</small>
       <h2 style="margin-top: 5px; margin-bottom: 10px;">EASY AUTH</h2>
-      <p>A production-ready authentication and task management API built with NestJS, featuring JWT-based authentication with refresh tokens, email verification via Resend, role-based access control, and a full CRUD task system.</p>
+      <p>A production-ready authentication and task management API built with NestJS, featuring JWT-based authentication with refresh tokens, email verification via Resend, role-based access controland a full CRUD task system.</p>
       <hr style="border: 0; border-top: 1px solid #333; margin: 15px 0;">
       <table border="0">
         <tr>
@@ -252,7 +252,7 @@ A world where great software is **forged with obsessive craft and shipped everyw
     <td width="50%" valign="top">
       <small><b>NEXIVENT</b> &nbsp;|&nbsp; MICROSERVICES · BACKEND</small>
       <h2 style="margin-top: 5px; margin-bottom: 10px;">NEXIVENT</h2>
-      <p>A TypeScript/NestJS event-management backend organized as a microservice monorepo. It supports account registration and login, event creation and publication, ticket purchase and check-in, and asynchronous email notifications. The API gateway is the client-facing entry point; it forwards HTTP requests to dedicated Auth, Events, and Tickets services.</p>
+      <p>A TypeScript/NestJS event-management backend organized as a microservice monorepo. It supports account registration and login, event creation and publication, ticket purchase and check-inand asynchronous email notifications. The API gateway is the client-facing entry point; it forwards HTTP requests to dedicated Auth, Eventsand Tickets services.</p>
       <hr style="border: 0; border-top: 1px solid #333; margin: 15px 0;">
       <table border="0">
         <tr>
