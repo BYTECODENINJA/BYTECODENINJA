@@ -294,7 +294,7 @@ A world where great software is **forged with obsessive craft and shipped everyw
 
 <br><br>
 
-<sub><i>Always write clean code — you never know if the person maintaining it is a psychopath.</i></sub>
+<h3><i>Always write clean code — you never know if the person maintaining it is a psychopath.</i></h3>
 
 <img src="assets/divider.svg" alt="" width="100%">
 
